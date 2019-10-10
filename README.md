@@ -7,10 +7,10 @@ This repository contains configuration files for a number of code analysis tools
 
 ## Configuration files
 
-| Tool                                             | Description                  | File name                        | 
-| ------------------------------------------------ | -----------------------------|----------------------------------|
-| [PMD](https://pmd.github.io/)                    | Cross-language code analyser | [ruleset.xml](ruleset.xml)       |
-| [Hadolint](https://github.com/hadolint/hadolint) | Linter for Dockerfiles       | [.hadolint.yaml](.hadolint.yaml) |
+| Tool                                             | Description                  | File name                        | Applicable repositories                                    |
+| ------------------------------------------------ | -----------------------------|----------------------------------|------------------------------------------------------------|
+| [PMD](https://pmd.github.io/)                    | Cross-language code analyser | [ruleset.xml](ruleset.xml)       | Any containing Java source code or non-generated XML files |
+| [Hadolint](https://github.com/hadolint/hadolint) | Linter for Dockerfiles       | [.hadolint.yaml](.hadolint.yaml) | Any containing Dockerfiles                                 |
 
 ## Codacy
 
